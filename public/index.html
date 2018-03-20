@@ -5,23 +5,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
   <title>Trip Planner</title>
 </head>
 
 <body>
-  <header>
-    <nav id='navbar'>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+  <div id='navbar'>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
   </header>
-  <div id="map"></div>
-
+  <section>
+    <div id="map"></div>
+    <aside>
+      <div id="activities">
+          <div>
+            <p>Hotels</p>
+            <select class="form-control">
+              <option>xxxxxxxx</option>
+            </select>
+          </div>
+          <div>
+              <p>Restaurants</p>
+              <select class="form-control">
+                <option>xxxxxxxx</option>
+              </select>
+            </div>
+          <div>
+              <p>Things to Do</p>
+              <select class="form-control">
+                <option>xxxxxxxx</option>
+              </select>
+            </div>
+      </div>
+      <div id="itinerary"></div>
+    </aside>
+  </section>
   <script src="bundle.js"></script>
 </body>
 
